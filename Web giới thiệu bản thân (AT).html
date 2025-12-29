@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân - Lê Vũ Anh Thương</title>
+    <style>
+        body {font-family: 'Segoe UI', Arial, sans-serif;
+            background: pink;
+            margin: 0;
+            padding: 0;}
+        .container {max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            padding: 32px 24px;}
+        .profile-header {display: flex;
+            align-items: center;
+            margin-bottom: 24px;}
+        .profile-img {width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #eb8ab4;
+            margin-right: 32px;
+            background: #e0e7ef;}
+        .profile-info {flex: 1;}
+        .profile-info h2 {margin: 0 0 8px 0;
+            font-size: 2rem;
+            color: #2d3a4a;} 
+        .profile-info p {margin: 4px 0;
+            font-size: 1.1rem;
+            color: #4a4a4a;}
+        .section {margin-bottom: 28px;
+            border-radius: 8px;
+            padding: 18px 20px;}
+        .section-title {font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 10px;}
+        .so-thich {background: #e3f2fd;
+            color: #1565c0;}
+        .so-truong {background: #e8f5e9;
+            color: #388e3c;}
+        .so-doan {background: #fff3e0;
+            color: #f57c00;}
+            
+        table { width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;}
+        th, td {border: 1px solid #b0bec5;
+            padding: 10px 12px;
+            text-align: left;
+            font-size: 1rem;}            
+        th {background: #eceff1;
+            color: #263238;}
+        .media {margin-top: 10px;}
+        .facebook-link { color: #1877f2;
+            text-decoration: none;
+            font-weight: bold;}
+        .facebook-link:hover { text-decoration: underline;}
+    </style>
+ </head>
+<body>
+    <div class="container">
+        <div class="profile-header">
+		<img src="https://drive.google.com/thumbnail?id=1JbZpJ71zl_pArslCQcisaaca5NR3Czkv" alt="Ảnh đại diện" class="profile-img">
+            <div class="profile-info">
+                <h2>Lê Vũ Anh Thương</h2>
+                <p><strong>Ngày sinh:</strong> 05/06/2008</p>
+                <p><strong>Địa chỉ:</strong> Ngọc Sơn Bắc, Hoài Nhơn, Gia Lai</p>
+                <p><strong>Học sinh:</strong> Lớp 12A2, Trường Trung học Phổ thông Nguyễn Trân</p>
+                <p><strong>Facebook:</strong> <a class="facebook-link" href="https://www.facebook.com/lvatcutis1tgioi" target="_blank">Anh Thuong</a></p>
+            </div>
+        </div>
+        <div class="section so-thich">
+            <div class="section-title">Sở thích</div>
+            <table>
+                <tr>
+                    <th>STT</th>
+                    <th>Sở thích</th>
+                    <th>Minh họa</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Nghe nhạc</td>
+                    <td class="media">
+                    <iframe 
+						src="https://drive.google.com/file/d/1F9Qg3-ccP0FdPix48qUAnHcXYrMM9Y6k/preview"
+						width="300"
+						height="50">
+                    </iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Du lịch</td>
+                    <td class="media">
+                    <iframe 
+						src="https://drive.google.com/file/d/1toyQODqoZbW-qzKWQnK2RV52xs3MgWVQ/preview"
+						width="400"
+						height="300">
+					</iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="section so-truong">
+            <div class="section-title">Sở trường</div>
+            <table>
+                <tr>
+                    <th>STT</th>
+                    <th>Sở trường</th>
+                </tr>
+                <tr><td>1</td><td>Giao tiếp</td></tr>
+                <tr><td>2</td><td>Nấu ăn</td></tr>
+                <tr><td>3</td><td>Ca hát</td></tr>
+            </table>
+        </div>
+        <div class="section so-doan">
+            <div class="section-title">Sở đoản</div>
+            <table>
+                <tr>
+                    <th>STT</th>
+                    <th>Sở đoản</th>
+                </tr>
+                <tr><td>1</td><td>Mau quên</td></tr>
+                <tr><td>2</td><td>Trì hoãn công việc</td></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
